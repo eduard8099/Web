@@ -89,7 +89,6 @@ h2, h3 {
 .right-sidebar {
     width: 30%;
     padding: 20px;
-    background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -99,17 +98,20 @@ h2, h3 {
 .donations-section {
     position: relative;
     padding: 20px;
-    background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-.donations-section p {
-    color: #333;
+.container a {
+    color: #e8650e;
 }
 
-.donations-section a {
-    color: grey;
+.sidebar a {
+    color: black;
+}
+
+.footer a {
+    color: #e8650e;
 }
 
 /* Pie de página */
