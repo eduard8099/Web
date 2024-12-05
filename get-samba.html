@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encapçalament -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="samba-logo.png" alt="Samba Logo" class="logo-image">
+            <p class="slogan">opening windows to a wider world</p>
+        </div>
+    </header>
+
+    <!-- Contingut principal -->
+    <div class="container">
+        <!-- Menú lateral -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is-samba.html">What is Samba?</a></li>
+                <li><a href="get-samba.html" class="active">Get Samba</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contingut central -->
+        <main class="content">
+            <h2>Download</h2>
+            <p>The Samba source code is distributed via https. View the download area via <a href="#">HTTPS</a>. The file you probably want is called <a href="#">samba-latest.tar.gz</a>. Old releases are available in the <a href="#">Samba archives</a>.</p>
+            <p>
+                The <a href="#">Samba distribution GPG public key</a> can be used to verify that current releases have not been tampered with. Using GnuPG, simply download the Samba source distribution, the tarball signature, and the Samba distribution public key, then run:
+            </p>
+            <code>
+                $ gpg --import samba-pubkey.asc<br>
+                $ gunzip samba-version.tar.gz<br>
+                $ gpg --verify samba-release.tar.asc.gpg<br>
+                Signature made Tue 20 Nov 2007 07:12:04 PM CST using DSA key ID 65687E7A gpg: Good signature from "Samba Distribution Verification Key <samba-bugs@samba.org>"
+            </code>
+            <p>
+                It is recommended that you also review the <a href="#">list of patches</a> for current releases. For information on Samba security releases, please see our <a href="#">security page</a>.
+            </p>
+
+            <h3>Binaries</h3>
+            <p>All major Linux and Free Unix distributions have Samba as a native package. See your distributor's package or port system for a native install of samba on your system.</p>
+            <ul>
+                <li><a href="#">https://samba.plus/</a> offers Samba packages for SLES, RHEL, and Debian and AIX.</li>
+                <li><a href="#">http://en.openSUSE.org/Samba</a> offers Samba packages for all SuSE Linux products (including SLES).</li>
+            </ul>
+
+            <h3>Git Sources</h3>
+            <p>
+                You can also fetch the sources using the <a href="#">GIT source code control system</a>. The advantage of fetching via GIT is you can update your sources at any time using a single command. See the <a href="#">Git instructions</a>.
+            </p>
+
+            <h3>Tools</h3>
+            <ul>
+                <li><a href="#">Samba GUI managers</a></li>
+                <li><a href="#">Wireshark</a> (decodes NetBIOS, SMB/CIFS, & MS-RPC)</li>
+                <li><a href="#">tcpdump</a> (command line packet sniffer)</li>
+                <li><a href="#">NetBIOS Auditing Tool (NAT)</a></li>
+                <li><a href="#">wsdd</a> is a Web Service Discovery (WSD) daemon written in Python</li>
+                <li><a href="#">wsdd2</a> is a WSD/LLMNR discovery daemon written in C</li>
+                <li><a href="#">nbfw</a>, the NetBIOS forwarder (obsolete)</li>
+            </ul>
+        </main>
+
+        <!-- Barra lateral dreta -->
+        <aside class="right-sidebar">
+            <!-- Logo dentro de la barra lateral derecha -->
+            <div class="right-logo-container">
+                <img src="samba-logo.png" alt="Samba Logo" class="right-logo-image" height="25px";/>
+            </div>
+
+            <!-- Donaciones -->
+            <div class="donations-section">
+                <h2>Donations</h2>
+                <p>Nowadays, the Samba Team needs a <a href="#">dollar</a> instead of pizza ;-)</p>
+                <h3>10 years of Samba!</h3>
+                <p>
+                    Who would have believed that would eventually lead to the project that is now Samba? Thanks to the involvement of countless individuals over the years, Samba has come a long way in the last decade, and is set to continue improving for the foreseeable future.
+                </p>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Peu de pàgina -->
+    <footer class="footer">
+        <img src="samba-logo.png" alt="Samba Logo" class="right-logo-image" height="25px";/>
+        <p>(c) <a href="https://www.samba.org">www.samba.org</a> | eduard8099</p>
+    </footer>
+</body>
+</html>
+
